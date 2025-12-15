@@ -5,7 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return '<a href="/add?a=1&b=2">add</a>'
-    # return '<a href="/add">add</a>'
 
 @app.route('/add')
 def add():
